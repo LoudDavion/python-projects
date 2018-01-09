@@ -37,7 +37,7 @@ with open('userlist.txt', 'r+') as ul:
     CURRENT_CAT = 0
     while True:
         USERIN = input("Enter a command (help, open, leave, add, remove, list, organize, quit): ")
-        CATAGORIES = [] 
+        CATAGORIES = []
         INPUT_QUEUE = USERIN.split()
         UCOMMAND = INPUT_QUEUE[0]
         if 'help' in UCOMMAND:
